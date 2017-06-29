@@ -1,23 +1,32 @@
-
-h5 {
-  text-decoration: underline;
-}
-
 nav {
   display: inline-flex;
-  flex-flow: row;
-  justify-content: flex-end;
+
 }
 
 .header {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  justify-content: space-between;
+  border-bottom: 100px;
+  border-bottom-color: black;
 }
 
-.mytimes {
+.my_times {
+  justify-content:flex-start;
   color: mediumaquamarine;
-  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+}
+
+h5{
+  display: inline;
+  margin: 9px;
+}
+
+img {
+  float: left
 }
