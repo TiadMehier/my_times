@@ -1,16 +1,42 @@
-head{
+.mytimes {
+  flex-flow: row;
+  font-size:100px;
+  display:inline-flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: mediumaquamarine;
+  position: relative;
+}
+
+h5 {
+  margin: 0 5;
+  text-decoration: underline;
+  position: relative;
+}
+
+nav {
+  display: inline-flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+.logo {
+  display:inline-flex;
+
+}
+
+h5 {
+  margin: 0 5;
+  text-decoration: underline;
+  position: relative;
+}
+
+head {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
-  border: 1px;
-}
-
-nav{
-  text-decoration: underline;
-  display: inline-block;
-}
-.logo{
-
+  border: 3px;
+  width: 100%;
+  position: relative;
 }
