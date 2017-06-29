@@ -1,17 +1,6 @@
-.mytimes {
-  flex-flow: row;
-  font-size:100px;
-  display:inline-flex;
-  justify-content: flex-start;
-  text-decoration: none;
-  color: mediumaquamarine;
-  position: relative;
-}
 
 h5 {
-  margin: 0 5;
   text-decoration: underline;
-  position: relative;
 }
 
 nav {
@@ -20,23 +9,15 @@ nav {
   justify-content: flex-end;
 }
 
-.logo {
-  display:inline-flex;
-
-}
-
-h5 {
-  margin: 0 5;
-  text-decoration: underline;
-  position: relative;
-}
-
-head {
+.header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border: 3px;
-  width: 100%;
-  position: relative;
+  justify-content: space-between;
+}
+
+.mytimes {
+  color: mediumaquamarine;
+  text-decoration: none;
 }
