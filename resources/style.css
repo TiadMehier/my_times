@@ -50,6 +50,7 @@ s
 .large,
 .medium,
 .small {
+  margin-right: 32px;
   display: flex;
     flex-flow: column;
 }
