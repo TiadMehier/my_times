@@ -36,18 +36,52 @@ h5{
   margin: 9px;
 }
 
-.main_container{
+.column{
   display: flex;
     position: relative;
     top: 81px;
     z-index: 5;
     border: 1px solid black;
+s
 
 }
 
-.large div{
+.large,
+.medium,
+.small {
+  display: flex;
+    flex-flow: column;
+}
+
+.large div,
+.medium div,
+.small div{
   display: block;
     border: 1px solid black;
     margin: 3px;
 
 }
+
+.large.column{
+  width: 630px;
+}
+
+.medium.column{
+  width:300px;
+}
+
+.small.column{
+  width: 240px;
+}
+
+/**.column.large {
+  width: 630px;
+}
+
+.column.medium{
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
+} **/
