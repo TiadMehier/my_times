@@ -107,26 +107,29 @@ p{
 }
 
 #mother{
+  text-align: center;
   width: 100% auto;
   height: 300px;
   font-size: 40px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")
-
 }
 
 #earth{
+  text-align: center;
   width: 100%;
   height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png"), url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png")
 }
 
 #cameras{
+  text-align: center;
   width: 100%;
   height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png"), url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
 }
 
 #cats{
+  text-align:center;
   width: 100%;
   height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png")
@@ -173,6 +176,7 @@ div .right{
 #bites{
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
 footer{
@@ -181,6 +185,8 @@ footer{
   font-family: verdana;
   font-size: 12px;
   display:flex;
+  position: relative;
+  top: 81px;
 
 }
 
