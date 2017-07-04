@@ -1,3 +1,6 @@
+html{
+  overflow:scroll;
+}
 nav {
   display: inline-flex;
 
@@ -7,10 +10,11 @@ nav {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
    display: flex;
     align-items: center;
     position: fixed;
-    z-index: 5;
+    z-index: 10;
     width: 100%;
     height: 80px;
     border-bottom: 1px solid black;
@@ -34,15 +38,16 @@ display: flex;
 h5{
   display: inline;
   margin: 9px;
+  text-decoration: underline;
 }
 
 .column{
   display: flex;
     position: relative;
+    justify-content: space-around;
     top: 81px;
     z-index: 5;
-    border: 1px solid black;
-    z-index: 1;
+
 s
 
 }
@@ -59,7 +64,6 @@ s
 .medium div,
 .small div{
   display: block;
-    border: 1px solid black;
     margin: 3px;
 
 }
@@ -91,6 +95,7 @@ p{
 
 .small{
   width: 240px;
+  flex-direction: column;
 }
 
 .body{
@@ -132,20 +137,80 @@ p{
   font-weight: bold;
   font-size: 30px;
   color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.left,
-.right{
+div .left,
+div .right{
   width: 300px;
-  display: inline-flex;
     position: relative;
     flex-flow: column;
-    flex-direction: column;
     justify-content: center;
+  display: inline-block;
 }
 
 .left_and_right{
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
+}
+
+#boxes{
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: dimgray;
+}
+
+#boxes p{
+  border-bottom: 1px solid black;
+  padding: 6px;
+}
+
+#bites{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer{
+  background-color: mediumaquamarine;
+  margin: 10px;
+  font-family: verdana;
+  font-size: 12px;
+  display:flex;
+
+}
+
+.footer{
+  padding: 100px;
+  text-align: center;
+  width:100%;
+
+}
+
+.my_times,
+.links{
+  display: inline-flex;
+}
+
+div .my_times,
+div .links,
+div .copyright{
+  align-content: center;
+  justify-content: center;
+}
+
+.my_times{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+h3{
+  font-size: 25px;
+  font-weight: bold;
 }
